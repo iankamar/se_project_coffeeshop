@@ -181,7 +181,7 @@
   border: none;
 }
 
-.recipe-caption {
+.caption {
   display: flex;
   justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
