@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffe Shop</title>
+    <title>Coffee Shop</title>
     <meta
       name="description"
       content=" A brief description of a coffee shop landing page."
@@ -22,15 +22,101 @@
   </head>
   <body>
     <div class="page">
-      Testing
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffee_shop.svg"
+            alt="Practicum Coffee Shop Logo"
+            class="logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="#Menu" class="nav__link">Menu</a>
+            </li>
+            <li>
+              <a href="#Recipes" class="nav__link">Recipes</a>
+            </li>
+            <li>
+              <a href="#Book-a-table" class="nav__link">Book a table</a>
+            </li>
+            <li>
+              <a href="#Contacts" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__wrapped">
+          <h1 class="header__title">
+            <span class="blue"> Specialty coffee </span>
+            in the Practicum Library
+          </h1>
+        </div>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Illustration Inside the coffee shop"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <ul class="header__footer-list">
+            <li class="header__footer-list">Hours:</li>
+            <li class="header__footer-list">Monday-Friday (10:00 - 19:00)</li>
+            <li class="header__footer-list">Saturday-Sunday (11:00 - 18:00)</li>
+          </ul>
+          <p class="header__address">
+            200 Success Avenue, The Town of Practicum
+          </p>
+        </div>
+      </header>
       <main class="content">
-        <section class="recipes"></section>
-        <section class="menu"></section>
+        <section id="recipes" class="recipes">
+          <div class="recipes__content">
+            <h2 class="recipes__title">Recipes</h2>
+            <p class="recipes__subtitle">
+              Check out some recipes we've collected for your home-brewing
+              convenience:
+            </p>
+            <div class="recipes__videos">
+              <div class="recipes__video">
+                <iframe
+                  class="recipes__iframe"
+                  id="ytplayer1"
+                  width="480"
+                  height="273"
+                  src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                  allowfullscreen=""
+                >
+                </iframe>
+                <div class="recipe__caption">
+                  <div class="recipe__caption-title">Aeropress recipe</div>
+                  <p class="recipe__time">~5</p>
+                </div>
+              </div>
+              <div class="recipes__video">
+                <iframe
+                  class="recipes__iframe"
+                  id="ytplayer2"
+                  width="480"
+                  height="273"
+                  src="https://www.youtube.com/embed/st571DYYTR8"
+                  allowfullscreen=""
+                >
+                </iframe>
+                <div class="recipe__caption">
+                  <div class="recipe__caption-title">French press recipe</div>
+                  <p class="recipe__time">~15</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--section class="menu"></section>
         <section class="reservation"></section>
-        <section class="about"></section>
+        <section class="about"></section>-->
       </main>
-      <footer class="footer"></footer>
+      <!--<footer class="footer"></footer>-->
     </div>
   </body>
 </html>
