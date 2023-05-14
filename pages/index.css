@@ -192,3 +192,122 @@
   box-sizing: border-box;
   align-items: center;
 }
+
+.menu {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  background: #d9e7ff;
+  font-family: Inter;
+  max-width: 385px;
+  height: 100vh;
+  margin-bottom: 120px;
+}
+
+.reservation__title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+  margin: 0px 0px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.form__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form__label {
+  display: block;
+  line-height: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+
+.form__input {
+  display: block;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 24px;
+  min-height: 60px;
+  min-width: 385px;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 30px;
+  border: 1px solid #838383;
+}
+
+.form__input[type="text"],
+.form__input[type="number"],
+.form__input[type="datetime-local"],
+.form__input[type="email"] {
+  border-radius: 4px;
+}
+
+.form__input::placeholder {
+  color: #838383;
+  align-items: flex-start;
+}
+
+.form__button[type="submit"] {
+  display: block;
+  box-sizing: border-box;
+  min-width: 385px;
+  min-height: 60px;
+  background: #2f71e5;
+  color: #ffffff;
+  border: none;
+  line-height: 20px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.form__button[type="submit"]:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.form__label[type="checkbox"]:focus {
+  display: inline;
+  border-radius: 2px;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.form__label[for="i-agree-with-the-terms-of-use"] {
+  display: inline;
+  border-radius: 4px;
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: 12px;
+}
+
+.form__fieldset:last-child {
+  text-align: center;
+  padding-bottom: 120px;
+}
