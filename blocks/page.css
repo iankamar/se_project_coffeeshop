@@ -1,0 +1,561 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #fff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 125px;
+  height: 142px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.nav__links {
+  margin: 30px 80px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  column-gap: 20px;
+  padding-inline-start: 0px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav__link:hover {
+  color: #000;
+}
+
+.header__title {
+  font-weight: 500;
+  padding-top: 80px;
+  margin-bottom: 0px;
+  max-width: 729px;
+  padding-left: 80px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  flex-direction: column;
+  display: flex;
+}
+
+.blue {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__wrapped {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__description {
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  margin-left: 80px;
+  margin-top: 28px;
+  margin-bottom: 0px;
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin-top: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  z-index: 1;
+}
+.header__footer-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.header__address {
+  padding-right: 80px;
+}
+
+.recipes {
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.recipes__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 580px;
+  padding-left: 80px;
+  bottom: 0px;
+  padding-top: 100px;
+  color: #fff;
+}
+
+.recipes__subtitle {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 80px;
+  max-width: 438px;
+  padding-bottom: 80px;
+  padding-top: 24px;
+  color: #fff;
+  margin: 0;
+}
+
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 215px;
+  gap: 40px;
+}
+
+.recipes__video {
+  width: 480px;
+  height: 273px;
+}
+
+.recipes__iframe {
+  border: none;
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 24px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.container {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.reservation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  background: #d9e7ff;
+  font-family: Inter;
+  max-width: 385px;
+  height: 100vh;
+  margin-bottom: 120px;
+}
+
+.reservation__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+  margin: 0px 0px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.form__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form__label {
+  display: block;
+  line-height: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+
+.form__input {
+  display: block;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 24px;
+  min-height: 60px;
+  min-width: 385px;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 30px;
+  border: 1px solid #838383;
+}
+
+.form__input[type="text"],
+.form__input[type="number"],
+.form__input[type="datetime-local"],
+.form__input[type="email"] {
+  border-radius: 4px;
+}
+
+.form__input::placeholder {
+  color: #838383;
+  align-items: flex-start;
+}
+
+.form__button[type="submit"] {
+  display: block;
+  box-sizing: border-box;
+  min-width: 385px;
+  min-height: 60px;
+  background: #2f71e5;
+  color: #ffffff;
+  border: none;
+  line-height: 20px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.form__button[type="submit"]:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.form__label[type="checkbox"]:focus {
+  display: inline;
+  border-radius: 2px;
+  max-width: 20px;
+  max-height: 20px;
+  vertical-align: center;
+  background: #ffffff;
+  transform: scale(0.3);
+  vertical-align: middle;
+}
+
+.form__label[for="i-agree-with-the-terms-of-use"] {
+  display: inline;
+  border-radius: 4px;
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: 12px;
+  vertical-align: center;
+}
+
+.form__fieldset:last-child {
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+.menu__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 780px;
+  bottom: 0px;
+  padding-top: 100px;
+  color: #000;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.menu__subtitle {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 780px;
+  padding-bottom: 100px;
+  padding-top: 24px;
+  color: #000;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.menu__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu__row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  row-gap: 50px;
+}
+
+.menu__column {
+  column-gap: 50px;
+}
+
+.card {
+  width: 540px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0 50px 50px;
+}
+
+.card__content {
+  flex: 1;
+}
+
+.card__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__list-item {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  margin-left: 16px;
+  margin-right: 16px;
+  height: 1px;
+  background-color: #000;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px;
+  background-color: #0a2850;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.about__title {
+  margin: 0;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  max-width: 251px;
+  z-index: 1;
+  font-family: "Inter", Arial, sans-serif;
+  padding-top: 100px;
+}
+
+.about__content {
+  padding: 119px 0px 173px 80px;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 660px;
+  z-index: 1;
+  font-family: "Noto Serif", "Times New Roman", serif;
+}
+
+.about__paragraph {
+  margin: 0 0 20px;
+}
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 0;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+.footer {
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 60px 100px 0px 80px;
+  min-height: 224px;
+}
+
+.footer__socials {
+  display: flex;
+}
+
+.footer__social_content_social {
+  margin-left: auto;
+}
+
+.footer__logo {
+  width: 116px;
+  height: 21px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+}
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer__social-heading {
+  margin: 0 0 20px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  padding-bottom: 0px;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__copyright {
+  margin-top: 108px;
+  margin-bottom: 0px;
+  padding-bottom: 60px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
