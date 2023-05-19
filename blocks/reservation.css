@@ -1,0 +1,32 @@
+.container {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.reservation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  background: #d9e7ff;
+  font-family: Inter;
+  max-width: 385px;
+  height: 100vh;
+  margin-bottom: 120px;
+}
+
+.reservation__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+  margin: 0px 0px 80px;
+  display: flex;
+  justify-content: center;
+}
