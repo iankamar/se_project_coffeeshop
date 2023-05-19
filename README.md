@@ -13,4 +13,4 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add more animations and transitions to make my webpage more interractive and appealing.
+Add more animations and transitions to make my project more interractive and appealing.
