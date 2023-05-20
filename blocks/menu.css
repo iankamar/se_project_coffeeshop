@@ -4,8 +4,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
-  background-size: 100% 100%;
 }
 
 .menu__title {
@@ -14,11 +12,10 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 780px;
-  bottom: 0px;
-  padding-top: 100px;
+  padding: 0;
   color: #000;
   text-align: center;
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
 }
 
 .menu__subtitle {
@@ -26,30 +23,24 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 780px;
-  padding-bottom: 100px;
-  padding-top: 24px;
+  padding: 0;
   color: #000;
-  margin: 0 auto;
+  margin: 24px auto 100px auto;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  margin-bottom: 0px;
 }
 
-.menu__container {
+.menu__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.menu__row {
+  margin: 0;
+  padding: 0 0 50px 0;
   width: 100%;
   display: flex;
   justify-content: center;
   row-gap: 50px;
-}
-
-.menu__column {
   column-gap: 50px;
 }

@@ -7,7 +7,7 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  height: 100%;
+  z-index: 1;
 }
 
 .about__title {
@@ -16,25 +16,20 @@
   line-height: 52px;
   font-weight: 500;
   max-width: 251px;
-  z-index: 1;
   font-family: "Inter", Arial, sans-serif;
   padding-top: 100px;
 }
 
 .about__content {
-  padding: 119px 0px 173px 80px;
+  padding: 119px 80px 173px 0;
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
-  z-index: 1;
   font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .about__paragraph {
   margin: 0 0 20px;
-}
-.about__paragraph:last-child {
-  margin-bottom: 0;
 }
 
 .about__circle {
@@ -45,7 +40,7 @@
   position: absolute;
   top: -152px;
   left: -129px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .about__circle_animation_blurred {
@@ -59,10 +54,9 @@
   }
   50% {
     opacity: 0.6;
-    transform: scale(1.2);
   }
   100% {
     opacity: 0;
-    transform: scale(1);
+    transform: scale(1.5);
   }
 }
