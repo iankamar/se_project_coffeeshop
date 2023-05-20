@@ -36,11 +36,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 0;
-  padding: 0 0 50px 0;
+  padding: 0;
+  margin: 0 0 100px 0;
   width: 100%;
   display: flex;
   justify-content: center;
-  row-gap: 50px;
-  column-gap: 50px;
+  row-gap: 100px;
+  column-gap: 100px;
 }
