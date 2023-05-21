@@ -71,23 +71,23 @@
   width: 100%;
 }
 
-.header__footer-heading {
+.header__paragraph-heading {
   margin: 0;
 }
 
-.header__footer-heading-text {
+.header__paragraph-heading-text {
   margin: 0;
   font-size: 16px;
   font-weight: 500;
 }
 
-.header__footer-list {
+.header__paragraph-list {
   padding-left: 0;
   list-style: none;
   margin: 0;
 }
 
-.header__footer-list-item {
+.header__paragraph-list-item {
   margin: 0;
 }
 
